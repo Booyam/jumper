@@ -1,0 +1,488 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  font-family: 'Helvetica Neue' , Helvetica, Arial, sans-serif;
+  padding-top: 100px;
+}
+
+/* main niaid header
+------------------------- */
+.navbar {
+  min-height: 100px;
+}
+
+.navhr1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.navbar-collapse{
+  margin-top: 30px
+}
+.navbar-brand-logo {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 10px
+}
+.navbar-brand-name {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 18px
+}
+.brand-name-link:hover,
+.brand-name-link:focus {
+  
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* 
+------------------------- */
+/* Photos effects
+------------------------- */
+.thumbnail{
+ width: 100%;
+ overflow: hidden;
+}
+img{
+ -webkit-transition:all 0.5s ease;
+ -moz-transition:all 0.5s ease;
+ -ms-transition:all 0.5s ease;
+ o-transition:all 0.5s ease;
+ transition:all 0.5s ease;
+}
+img:hover{
+ transform: scale(1.3);
+ -webkit-transform: scale(1.3);
+ -moz-transform: scale(1.3);
+ -ms-transform: scale(1.3);
+ -o-transform: scale(1.3);
+}
+/* 
+------------------------- */
+.featured-sections {
+    margin-bottom: 0px;
+}
+.col-sm-4 {
+  margin-top: 30px;
+    width: 49.33333333%;
+    text-align: center
+
+}
+.logo-small {
+    /*color: black;*/
+    color: #407fbf;
+    font-size: 150px;
+}
+
+h4 {
+    font-size: 28px;
+    line-height: 1.375em;
+    color: #407fbf;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.test-hero-tools {
+	/*background: url("../images/tools.jpg") center center;*/
+    background-repeat: no-repeat;
+    border: 10px solid #fff;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+	padding-bottom: 200px;
+
+}
+
+.test-hero-tools p  {
+    color: #fff;
+	font-weight: 700;
+}
+
+.test-hero-dbs {
+	background: url("/images/databases.jpg") center center;
+    background-repeat: no-repeat;
+    border: 10px solid #fff;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+	padding-bottom: 200px;
+}
+
+.test-hero-dbs p  {
+    color: #fff;
+	font-weight: 700;
+}
+
+.test-hero-resources {
+	background: url("/images/resources.jpg") center center;
+    background-repeat: no-repeat;
+    border: 10px solid #fff;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+	padding-bottom: 200px;
+}
+
+.test-hero-resources p  {
+    color: #fff;
+	font-weight: 700;
+}
+
+.test-hero-events {
+	background: url("/images/events.jpg") center center;
+    background-repeat: no-repeat;
+    border: 10px solid #fff;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+	padding-bottom: 200px;
+}
+
+.test-hero-events p  {
+    color: #fff;
+	font-weight: 700;
+}
+
+.test-hero-people {
+	background: url("/images/people.jpg") center center;
+    background-repeat: no-repeat;
+    border: 10px solid #fff;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+	padding-bottom: 200px;
+}
+
+.test-hero-people p  {
+    color: #fff;
+	font-weight: 700;
+}
+
+.test-hero-pubs {
+	background: url("/images/pubs.jpg") center center;
+    background-repeat: no-repeat;
+    border: 10px solid #fff;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+	padding-bottom: 200px;
+}
+
+.test-hero-pubs p  {
+    color: #fff;
+	font-weight: 700;
+}
+
+.section-list-DBS {
+  background: url("/images/databases.jpg") center center;
+    background-repeat: no-repeat;
+    border: 10px solid #fff;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  padding-bottom: 200px;
+}
+
+.section-list-tools {
+    border: 10px solid #fff;
+    width: 100%;
+    background-color: blue;
+    background: url("/images/tools.jpg") center center;
+    background-size: cover;
+    overflow: hidden;
+	padding-bottom: 200px;
+}
+
+.section-list p  {
+    color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.rpage-content  {
+    margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu {
+  /* width: 200px; */
+  /* font-family: Helvetica, Arial, sans-serif; */
+  width: 280px;
+  color: #ffffff;
+}
+#cssmenu ul ul {
+  display: none;
+}
+.align-right {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 15px 20px;
+  /* border-left: 1px solid #1682ba; */
+  /* border-right: 1px solid #1682ba; */
+  border-top: 1px solid #1682ba;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  /* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+  background: #36aae7;
+  background: -webkit-linear-gradient(#36aae7, #1fa0e4);
+  background: -moz-linear-gradient(#36aae7, #1fa0e4);
+  background: -o-linear-gradient(#36aae7, #1fa0e4);
+  background: -ms-linear-gradient(#36aae7, #1fa0e4);
+  background: linear-gradient(#36aae7, #1fa0e4);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15); */
+}
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li.open > a {
+  color: #eeeeee;
+  background: #005295;/* NIH blue color in the sidenav bar in training resources*/
+  background: -webkit-linear-gradient(#005295, #1992d1);
+  background: -moz-linear-gradient(#005295, #1992d1);
+  background: -o-linear-gradient(#005295, #1992d1);
+  background: -ms-linear-gradient(#005295, #1992d1);
+  background: linear-gradient(#005295, #1992d1);
+}
+#cssmenu > ul > li.open > a {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid #1682ba;
+}
+#cssmenu > ul > li:last-child > a,
+#cssmenu > ul > li.last > a {
+  border-bottom: 1px solid #1682ba;
+  
+}
+.holder {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.holder::after,
+.holder::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  right: 20px;
+  z-index: 10;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.holder::after {
+  top: 17px;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}
+#cssmenu > ul > li > a:hover > span::after,
+#cssmenu > ul > li.active > a > span::after,
+#cssmenu > ul > li.open > a > span::after {
+  border-color: #eeeeee;
+
+}
+.holder::before {
+  top: 18px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-top-color: inherit;
+  border-left-color: inherit;
+}
+#cssmenu ul ul li a {
+  cursor: pointer;
+  border-bottom: 1px solid #32373e;
+  border-left: 1px solid #32373e;
+  border-right: 1px solid #32373e;
+  padding: 10px 20px;
+  z-index: 1;
+  text-decoration: none;
+  font-size: 13px;
+  color: #eeeeee;
+  background: #005295;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li.open > a,
+#cssmenu ul ul li.active > a {
+  background: #424852;
+  color: #ffffff;
+}
+#cssmenu ul ul li:first-child > a {
+  box-shadow: none;
+}
+#cssmenu ul ul ul li:first-child > a {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#cssmenu ul ul ul li a {
+  padding-left: 30px;
+}
+#cssmenu > ul > li > ul > li:last-child > a,
+#cssmenu > ul > li > ul > li.last > a {
+  border-bottom: 0;
+}
+#cssmenu > ul > li > ul > li.open:last-child > a,
+#cssmenu > ul > li > ul > li.last.open > a {
+  border-bottom: 1px solid #32373e;
+}
+#cssmenu > ul > li > ul > li.open:last-child > ul > li:last-child > a {
+  border-bottom: 0;
+}
+#cssmenu ul ul li.has-sub > a::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  right: 20px;
+  z-index: 10;
+  top: 11.5px;
+  border-top: 2px solid #eeeeee;
+  border-left: 2px solid #eeeeee;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+
+}
+#cssmenu ul ul li.active > a::after,
+#cssmenu ul ul li.open > a::after,
+#cssmenu ul ul li > a:hover::after {
+  border-color: #ffffff;
+ 
+}
+
+
+/* main niaid footer
+------------------------- */
+.main-niaid-footer {
+	background-color: #f8f8f8;
+	margin-top: 0px;
+	padding-bottom: 100px;
+	padding-top: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer-links-heading {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.footer-links {
+	font-size: 12px;
+	color: #000;
+	line-height: 2;
+}
+
+.footer-links:hover,
+.footer-links:focus {
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.footer-address {
+	font-size: 12px;
+	color: #000;
+}
+
+.footer-columns-separator {
+	border-top: 1px solid transparent;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sidebar-column-separator {
+	border-top: 1px dotted transparent;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer-hero-about {
+  /*background: url("../images/tools.jpg") center center;*/
+  background: #005295;
+  background: #005295;/* NIH blue color in the sidenav bar in training resources*/
+  background: -webkit-linear-gradient(#005295, #1992d1);
+  background: -moz-linear-gradient(#005295, #1992d1);
+  background: -o-linear-gradient(#005295, #1992d1);
+  background: -ms-linear-gradient(#005295, #1992d1);
+  background: linear-gradient(#005295, #1992d1);
+    background-repeat: no-repeat;
+    border: 10px solid #fff;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  padding-bottom: 70px;
+
+}
+.footer-hero-contact{
+  color: #ffffff;
+}
+
+/*.footer-hr {
+  border-top: 1px dotted #000;
+}*/
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+/* this is to expande the portal 100% width */
+@media (min-width: 1200px) {
+  .test-content {
+    width: 90%;
+}
+
+}
