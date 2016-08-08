@@ -18,16 +18,20 @@ Installation
 (Make sure that Node.js is installed on your machine: https://nodejs.org/en/ )
 
 Open a terminal in mac or a command prompt in window and type:
+```bash
+$ git clone https://github.com/Booyam/jumper.git
 
 $ cd jumper
 
+$ sudo npm install
+```
 
 Usage
 ------
 To start your application using a terminal in mac or a command prompt in window type:
-
+```bash
 $ node app.js
-
+```
 Application
 ------------
 
